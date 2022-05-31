@@ -4,6 +4,8 @@
     justify-content: flex-start;
     text-align: center;
     width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 
 .socials-container {
@@ -21,7 +23,7 @@
 
 .phones-container{
     width: 100vw;
-    height: 70vh; 
+    height: 80vh; 
     display: flex;
     text-align: center;
     align-items: center;
@@ -32,6 +34,9 @@
 
 img {
     /* justify-content: center; */
-    width: 50%;
-    height: 90%;
+    width: 65%;
+    height: 80%;
+    padding: 0;
+    margin: 0;
+    margin-right: 8%;
 }

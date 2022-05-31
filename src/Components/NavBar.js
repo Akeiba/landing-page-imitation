@@ -9,7 +9,7 @@ export default function NavBar() {
 
         <div className="nav-left">
         <p >Home</p>
-        <p>About</p>
+        <p>About</p> 
         <p>Testimonials</p>
         <p>Contact</p>
         </div>

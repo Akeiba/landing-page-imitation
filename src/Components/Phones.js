@@ -4,8 +4,8 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin } from
 export default function Phones() {
     return (<>
         <div className="contact-container">
-        <div className="socials-container">
 
+        <div className="socials-container">
         <FaFacebookSquare className="icon" />
         <FaInstagramSquare className="icon" />
         <FaTwitterSquare className="icon" />
@@ -15,6 +15,7 @@ export default function Phones() {
         <div className="phones-container">
         <img src={"/phones-image.png"} ></img>
         </div>
+
         </div>
         </>
     )
