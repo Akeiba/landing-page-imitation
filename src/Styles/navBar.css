@@ -23,7 +23,7 @@
     text-align: center;
     justify-content: center;
     width: 30%;
-    font-size: 2em;
+    font-size: 0.6em;
     font-weight: bold;
 }
 
@@ -38,6 +38,7 @@
 
 p {
     padding: 3%;
+    cursor: pointer;
 }
 
 .btn {

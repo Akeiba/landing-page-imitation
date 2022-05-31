@@ -1,6 +1,6 @@
 .background {
   /* background-color: rgb(30,90,249); */
-  background: linear-gradient(to bottom, rgb(30,90,249) 40%, #fff 60%);
+  background: linear-gradient(to bottom, rgb(30,90,249) 80%, #fff 20%);
   color: #FAFAFA;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;

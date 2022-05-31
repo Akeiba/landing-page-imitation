@@ -15,7 +15,7 @@ export default function NavBar() {
         </div>
 
         <div className="nav-logo">
-        <p>smartHome</p>
+        <h1>smartHome</h1>
         </div>
         
         <div className="nav-right">
