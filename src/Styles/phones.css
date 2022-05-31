@@ -1,0 +1,24 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100vw;
+}
+
+.phones-container{
+    /* width: 100vw;
+    height: 70vh; */
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    /* flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; */
+}
+
+img {
+    /* justify-content: center; */
+    width: 50%;
+    height: 90%;
+}
