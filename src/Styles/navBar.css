@@ -1,0 +1,48 @@
+.nav-container {
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 15vh;
+    overflow-x: hidden;
+    padding-top: 2%;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: right;
+    width: 30%;
+    margin-right: 4%;
+}
+
+p {
+    padding: 3%;
+}
+
+.btn {
+    background-color: #fff;
+    color: #182549;
+    border-radius: 10%;
+}

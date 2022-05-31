@@ -1,0 +1,37 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100vw;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1em;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.phones-container{
+    width: 100vw;
+    height: 70vh; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; 
+}
+
+img {
+    /* justify-content: center; */
+    width: 50%;
+    height: 90%;
+}
