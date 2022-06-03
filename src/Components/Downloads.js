@@ -1,11 +1,15 @@
 import "../Styles/downloads.css";
+import downloadImg from "../Assets/downloadimg.png"
 
-export default function Downloads() {
+
+const Downloads = () => {
     return (
         <>
         <div className="download-container">
-        <img src={"/downloadimg.png"} className="download-img"></img>
+            <img src={downloadImg} className="download-img" alt="Images of download options"></img>
         </div>
         </>
     )
 }
+
+export default Downloads;

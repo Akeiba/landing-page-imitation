@@ -1,7 +1,8 @@
-import "../Styles/phones.css"
+import "../Styles/phones.css";
+import phonesImg from "../Assets/phones-image.png"
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin } from 'react-icons/fa';
 
-export default function Phones() {
+const Phones = () => {
     return (<>
         <div className="contact-container">
 
@@ -11,12 +12,15 @@ export default function Phones() {
         <FaTwitterSquare className="icon" />
         <FaLinkedin className="icon" />
         </div>
-
+        
         <div className="phones-container">
-        <img src={"/phones-image.png"} ></img>
+        <img src={phonesImg} ></img>
+
         </div>
 
         </div>
         </>
     )
 };
+
+export default Phones;

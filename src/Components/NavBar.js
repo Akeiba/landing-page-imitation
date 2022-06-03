@@ -2,11 +2,10 @@ import React from "react";
 import "../Styles/navBar.css";
 
 
-export default function NavBar() {
+const NavBar = () => {
     return (
         <>
         <div className="nav-container">
-
         <div className="nav-left">
         <p >Home</p>
         <p>About</p> 
@@ -27,3 +26,5 @@ export default function NavBar() {
         </>
     )
 };
+
+export default NavBar;
