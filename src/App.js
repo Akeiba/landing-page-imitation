@@ -2,8 +2,13 @@ import "./Styles/App.css";
 import NavBar from "./Components/NavBar";
 import Title from "./Components/Title";
 import Description from "./Components/Description";
-import Phones from "./Components/Phones";
+import ContactSection from "./Components/ContactSection";
 import Downloads from "./Components/Downloads";
+import About from "./Components/About";
+import Services from "./Components/Services";
+import DoAppliences from "./Components/DoAppliences";
+import ControlAppliences from "./Components/ControlAppliences";
+
 
 
 function App() {
@@ -12,8 +17,12 @@ function App() {
         <NavBar />
         <Title />
         <Description />
-        <Phones />
+        <ContactSection />
         <Downloads />
+        <About />
+        <Services />
+        <DoAppliences />
+        <ControlAppliences />
     </div>
   );
 }

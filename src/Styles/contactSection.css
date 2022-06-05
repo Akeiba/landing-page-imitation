@@ -1,0 +1,12 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+
+

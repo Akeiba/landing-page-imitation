@@ -1,9 +1,11 @@
 .background {
   /* background-color: rgb(30,90,249); */
-  background: linear-gradient(to bottom, rgb(30,90,249) 80%, #fff 20%);
+  background: linear-gradient(to top, #fff 80%, rgb(30,90,249) 20%);
+  /* background: linear-gradient(to bottom, rgb(30,90,249) 80%, #fff 20%); */
   color: #FAFAFA;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  z-index: -10;
 }
 
 /* background: linear-gradient(to bottom, #1F4E79 0%, #1F4E79 50%, #ddd 50%, #ddd 100%); */
