@@ -10,6 +10,7 @@ import DoAppliences from "./Components/DoAppliences";
 import ControlAppliences from "./Components/ControlAppliences";
 import OurClients from "./Components/OurClients";
 import Testimonials from "./Components/Testimonials";
+import FAQS from "./Components/FAQS";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <ControlAppliences />
         <OurClients />
         <Testimonials />
+        <FAQS />
     </div>
   );
 }
