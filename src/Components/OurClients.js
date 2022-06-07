@@ -17,17 +17,17 @@ const OurClients = () => {
             <StyledH1>Our Clients</StyledH1>
             <Description />
             <div className="upper-icon-row">
-                <img src={travelIcon}></img>
-                <img src={octaneIcon}></img>
-                <img src={lifeIcon}></img>
-                <img src={smileIcon}></img>
+                <img src={travelIcon} alt=""></img>
+                <img src={octaneIcon} alt=""></img>
+                <img src={lifeIcon} alt=""></img>
+                <img src={smileIcon} alt=""></img>
             </div>
             
             <div className="lower-icon-row">
-                <img src={trueIcon}></img>
-                <img src={cybexIcon}></img>
-                <img src={mockupIcon}></img>
-                <img src={precorIcon}></img>
+                <img src={trueIcon} alt=""></img>
+                <img src={cybexIcon} alt=""></img>
+                <img src={mockupIcon} alt=""></img>
+                <img src={precorIcon} alt=""></img>
             </div>
         </StyledOurClients>
     )

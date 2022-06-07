@@ -41,14 +41,3 @@ const FAQS = () => {
 }
 
 export default FAQS;
-
-
-
-
-{/* <div className="single-faq">
-<span>-</span>
-<div className="expanded-text">
-<p >Stuff sight equal of my woody?</p><br></br>
-<LoremIpsum className="expanded-paragraph" avgWordsPerSentence={6} avgSentencesPerParagraph={4} />
-</div>
-</div> */}

@@ -6,8 +6,9 @@ const Downloads = () => {
     return (
         <>
         <StyledDownloads>
-            <img src={downloadImg} className="download-img" alt="Images of download options"></img>
-        </StyledDownloads>        </>
+            <img src={downloadImg} className="download-img" alt="download options"></img>
+        </StyledDownloads>        
+        </>
     ) 
 }
 

@@ -14,7 +14,7 @@ const BottomDownload = () => {
                 <img src={downloadImg} alt="download links" className="download-icons"></img>
             </div>
             <div className="download-phone-container">
-                <img src={singlePhone}></img>
+                <img src={singlePhone} alt="a phone"></img>
             </div>
         
 
@@ -24,5 +24,3 @@ const BottomDownload = () => {
 }
 
 export default BottomDownload;
-
-// className="download-description"
