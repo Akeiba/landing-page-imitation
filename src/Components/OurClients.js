@@ -1,4 +1,6 @@
 import StyledOurClients from "../Styles/OurClients.styled";
+import StyledH1 from "../Styles/H1.styled";
+
 import Description from "./Description";
 import travelIcon from "../Assets/travel.png"
 import octaneIcon from "../Assets/octane.png"
@@ -12,7 +14,7 @@ import precorIcon from "../Assets/precor.png"
 const OurClients = () => {
     return (
         <StyledOurClients>
-            <h1>Our Clients</h1>
+            <StyledH1>Our Clients</StyledH1>
             <Description />
             <div className="upper-icon-row">
                 <img src={travelIcon}></img>

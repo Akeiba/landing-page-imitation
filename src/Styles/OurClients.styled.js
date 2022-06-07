@@ -7,13 +7,9 @@ align-items: center;
 justify-content: space-evenly;
 margin: 2em 0;
 
-h1 {
-    color: #313131;
-    font-size: 3.5em;
-    font-weight: bold;
-}
-
 p {
+    padding: 0;
+    margin: 0;
     color: #000F38;
 }
 

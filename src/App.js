@@ -9,6 +9,7 @@ import Services from "./Components/Services";
 import DoAppliences from "./Components/DoAppliences";
 import ControlAppliences from "./Components/ControlAppliences";
 import OurClients from "./Components/OurClients";
+import Testimonials from "./Components/Testimonials";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <DoAppliences />
         <ControlAppliences />
         <OurClients />
+        <Testimonials />
     </div>
   );
 }

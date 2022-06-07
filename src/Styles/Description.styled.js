@@ -1,5 +1,6 @@
-const StyledDescription = styled.div`
+import styled from 'styled-components'
 
+const StyledDescription = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;

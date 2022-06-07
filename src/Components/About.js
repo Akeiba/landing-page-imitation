@@ -1,9 +1,10 @@
 import StyledAbout from "../Styles/About.styled";
+import StyledH1 from "../Styles/H1.styled";
 
 const About = () => {
     return (
     <StyledAbout>
-        <h1 className="aboutH1">About us</h1>
+        <StyledH1>About us</StyledH1>
     </StyledAbout>    )
 }
 
