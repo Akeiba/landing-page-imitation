@@ -11,6 +11,7 @@ import ControlAppliences from "./Components/ControlAppliences";
 import OurClients from "./Components/OurClients";
 import Testimonials from "./Components/Testimonials";
 import FAQS from "./Components/FAQS";
+import BottomDownload from "./Components/BottomDownload";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <OurClients />
         <Testimonials />
         <FAQS />
+        <BottomDownload />
     </div>
   );
 }

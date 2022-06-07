@@ -3,7 +3,7 @@ import { LoremIpsum } from 'react-lorem-ipsum';
 import StyledDoAppliences from "../Styles/DoAppliences.styled";
 
 
-const DoAppliences = () => { 
+const DoAppliences = () => {  
     return (
     <>
     <StyledDoAppliences>

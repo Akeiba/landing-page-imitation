@@ -9,7 +9,8 @@ const Socials = () => {
             <FaInstagramSquare className="icon" />
             <FaTwitterSquare className="icon" />
             <FaLinkedin className="icon" />
-        </StyledSocials>    )
+        </StyledSocials>    
+    )
 }
 
 export default Socials;

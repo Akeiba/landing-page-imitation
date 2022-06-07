@@ -1,4 +1,3 @@
-// import "../Styles/title.css"
 import StyledTitle from "../Styles/Title.styled.js"
 
 const Title = () => {

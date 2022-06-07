@@ -6,7 +6,8 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 padding-bottom: 1em;
-color: #000F38;
+color: #606060;
+
 
 .reviews {
     display: flex;
@@ -33,7 +34,7 @@ p {
     border: 1px solid rgba(49, 49, 49, 0.2);
     border-radius: 10px;
     height:35vh;
-    color: #000F38;
+    color: #606060;
     background-color: #F8F8F8;
 }
 

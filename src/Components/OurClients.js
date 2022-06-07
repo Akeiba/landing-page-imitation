@@ -22,8 +22,8 @@ const OurClients = () => {
                 <img src={lifeIcon}></img>
                 <img src={smileIcon}></img>
             </div>
+            
             <div className="lower-icon-row">
-            <image src={travelIcon}></image>
                 <img src={trueIcon}></img>
                 <img src={cybexIcon}></img>
                 <img src={mockupIcon}></img>

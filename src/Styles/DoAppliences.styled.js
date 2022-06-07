@@ -65,6 +65,7 @@ const StyledDoAppliences = styled.div`
     margin: 0;
     padding: 0;
     text-align: left;
+    color: #606060;
 }
 
 .doAppliences-learn-btn {

@@ -1,6 +1,6 @@
 import StyledFAQS from "../Styles/FAQS.styled.js";
 import StyledH1 from "../Styles/H1.styled.js";
-import { LoremIpsum } from 'react-lorem-ipsum';
+// import { LoremIpsum } from 'react-lorem-ipsum';
 
 
 const FAQS = () => {
@@ -11,31 +11,13 @@ const FAQS = () => {
             <div className="expand-faqs">
                 <div className="single-faq">
                     <span>+</span>
-                    <p >Chamber reached do he nothing be?</p>
+                    <p>Chamber reached do he nothing be?</p>
                 </div>
 
                 <div className="single-faq">
                     <span>-</span>
-                    <p >Stuff sight equal of my woody?</p><br></br>
+                    <p>Stuff sight equal of my woody?</p>
                 </div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 <div className="single-faq">
                     <span>+</span>
@@ -51,9 +33,6 @@ const FAQS = () => {
                     <span>+</span>
                     <p>In am do giving to afford parish settle easily garret</p>
                 </div>
-
-
-
 
             </div>
         </StyledFAQS>

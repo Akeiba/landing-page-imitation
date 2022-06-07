@@ -7,7 +7,6 @@ align-items: center;
 justify-content: space-evenly;
 z-index: -10;
 
-
 .phone-image {
     height: 90vh;
     width: auto;
@@ -44,7 +43,6 @@ z-index: -10;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    color: #000F38;
 }
 
 .services-title {
@@ -53,6 +51,7 @@ z-index: -10;
     width: 80%;
     padding: 0;
     margin-bottom: 0.5em;
+    color: #000F38;
 }
 
 .services-text-container p {
@@ -61,6 +60,7 @@ z-index: -10;
     margin: 0;
     padding: 0;
     text-align: left;
+    color: #606060;
 }
 
 .services-learn-btn {

@@ -10,13 +10,13 @@ margin: 2em 0;
 p {
     padding: 0;
     margin: 0;
-    color: #000F38;
+    color: #606060;
 }
 
 img {
     width: 10em;
     height: 4em;
-    padding: 3em;
+    padding: 3em; 
     margin: 0;
 }
 

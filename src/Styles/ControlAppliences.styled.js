@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const StyledControlAppliences = styled.div`
 display: flex;
 flex-direction: row;
-align-items: center;
+align-items: center; 
 justify-content: space-evenly;
 z-index: -10;
 padding-top: 1em;
@@ -60,6 +60,7 @@ padding-top: 1em;
     margin: 0;
     padding: 0;
     text-align: left;
+    color: #606060;
 }
 
 .controlAppliences-learn-btn {

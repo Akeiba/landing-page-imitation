@@ -5,7 +5,7 @@ import { LoremIpsum } from 'react-lorem-ipsum';
 const Services = () => {
     return (
         <>
-        <StyledServices>
+            <StyledServices>
                 <div className="services-phone-container">
                     <img className="phone-image" src={phoneImg} alt="phone"></img>
                 </div>
@@ -14,7 +14,8 @@ const Services = () => {
                     <LoremIpsum p={1} className="services-text" />
                     <button className="services-learn-btn">Learn more</button>
                 </div>
-                </StyledServices>        </>
+            </StyledServices>        
+        </>
     )
 }
 

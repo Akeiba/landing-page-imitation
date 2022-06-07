@@ -14,13 +14,14 @@ const Testimonials = () => {
             <StyledH1>Testimonials</StyledH1>
             <Description />
             <div className="reviews">
-                <div className="review-icon">
+                <div className="review-icon">    
                     <p className="review-text"><LoremIpsum avgWordsPerSentence={8} avgSentencesPerParagraph={4} /></p>
                     <div className="reviewer-details">
                         <img src={person1} alt="client reviews"></img>
                         <p className="reviewer-name"><span>Cham</span><br></br>Product designer - Besnik</p>
                     </div>
                 </div>
+
                 <div className="review-icon">
                     <p className="review-text"><LoremIpsum avgWordsPerSentence={8} avgSentencesPerParagraph={4} /></p>
                     <div className="reviewer-details">
@@ -28,6 +29,7 @@ const Testimonials = () => {
                         <p className="reviewer-name"><span>Scopic Software</span><br></br>Custom IT Solutions Firm</p>
                     </div>
                 </div>
+
                 <div className="review-icon">
                     <p className="review-text"><LoremIpsum avgWordsPerSentence={8} avgSentencesPerParagraph={4} /></p>
                     <div className="reviewer-details">
@@ -35,6 +37,7 @@ const Testimonials = () => {
                         <p className="reviewer-name"><span>Russell Lee</span><br></br>Writer</p>
                     </div>
                 </div>
+
                 <div className="review-icon">
                     <p className="review-text"><LoremIpsum avgWordsPerSentence={8} avgSentencesPerParagraph={4} /></p>
                     <div className="reviewer-details">
@@ -47,4 +50,4 @@ const Testimonials = () => {
     )
 }
 
-export default Testimonials;
+export default Testimonials; 

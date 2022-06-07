@@ -7,6 +7,7 @@ align-items: center;
 justify-content: center;
 color: #000F38;
 font-size: 1em;
+padding-bottom: 2em;
 
 // .expand-faqs {
 //     padding: 0;
@@ -20,7 +21,7 @@ font-size: 1em;
     // justify-content: center;
     border: 1px solid rgba(49, 49, 49, 0.2);
     border-radius: 10px;
-    color: #000F38;
+    color: #606060;
     background-color: #F8F8F8;
     margin: 1em;
 }
