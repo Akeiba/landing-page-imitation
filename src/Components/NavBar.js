@@ -1,11 +1,14 @@
 import React from "react";
 import "../Styles/navBar.css";
+import { ContainerNav } from "../Styles/NavBar.styled";
 
 
 const NavBar = () => {
     return (
         <>
-        <div className="nav-container">
+        <ContainerNav>
+
+
         <div className="nav-left">
         <p >Home</p>
         <p>About</p> 
@@ -22,8 +25,11 @@ const NavBar = () => {
         <p className="btn">Signup</p>
         </div>
         
-        </div>
+
+
+        </ContainerNav>
         </>
+
     )
 };
 

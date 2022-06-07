@@ -1,18 +1,18 @@
 import Socials from "./Socials";
 import Phones from "./Phones";
 import ScrollArrow from "./ScrollArrow";
-import "../Styles/contactSection.css";
+import StyledContactSection from "../Styles/Contact.styled";
 
-const ConstactSection = () => {
+const ContactSection = () => {
     return (
         <>
-            <div className="contact-container">
+            <StyledContactSection>
                 <Socials />
                 <Phones />
                 <ScrollArrow />
-            </div>
+            </StyledContactSection>        
         </>
     )
 }
 
-export default ConstactSection;
+export default ContactSection;

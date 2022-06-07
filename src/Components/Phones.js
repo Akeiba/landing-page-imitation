@@ -1,16 +1,15 @@
 import phonesImg from "../Assets/phones-image.png";
-import "../Styles/contactSection.css";
-import  "../Styles/phones.css";
+import StyledPhones from "../Styles/Phones.styled";
 
 
 const Phones = () => {
     return (
         <>  
-            <div className="phones-container">
+        <StyledPhones>
             <img src={phonesImg} ></img>
-        </div>
+        </StyledPhones>
         </>
     )
 };
 
-export default Phones;
+export default Phones;  

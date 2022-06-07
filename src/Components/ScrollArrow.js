@@ -1,14 +1,12 @@
 import scrollArrowImg from "../Assets/arrow-image.png";
-import "../Styles/contactSection.css";
-import "../Styles/scrollArrow.css";
+import StyledScrollArrow from "../Styles/ScrollArrow.styled";
 
 
 const ScrollArrow = () => {
     return (
-        <div className="arrow-container">
+        <StyledScrollArrow>
             <img src={scrollArrowImg} alt="scroll down arrow" className="arrow" ></img>
-        </div>
-    )
+        </StyledScrollArrow>    )
 }
 
 export default ScrollArrow;

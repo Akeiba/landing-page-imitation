@@ -1,15 +1,18 @@
-.services-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: -10;
-}
+import styled from 'styled-components'
+
+const StyledServices = styled.div`
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+z-index: -10;
+
+
 .phone-image {
     height: 90vh;
     width: auto;
-    z-index: 2;
-    /* padding-right: 3.2vw; */
+    z-index: 2; 
+    padding-right: 4vw;
 }
 
 .services-phone-container {
@@ -71,3 +74,6 @@
     cursor: pointer;
     border: none;
 }
+`;
+
+export default StyledServices;

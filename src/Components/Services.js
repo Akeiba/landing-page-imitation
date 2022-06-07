@@ -1,11 +1,11 @@
-import "../Styles/services.css";
+import StyledServices from "../Styles/Services.styled";
 import phoneImg from "../Assets/single-phone.png";
 import { LoremIpsum } from 'react-lorem-ipsum';
 
 const Services = () => {
     return (
         <>
-            <div className="services-container">
+        <StyledServices>
                 <div className="services-phone-container">
                     <img className="phone-image" src={phoneImg} alt="phone"></img>
                 </div>
@@ -14,10 +14,8 @@ const Services = () => {
                     <LoremIpsum p={1} className="services-text" />
                     <button className="services-learn-btn">Learn more</button>
                 </div>
-
-            </div>
-        </>
+                </StyledServices>        </>
     )
 }
 
-export default Services;
+export default Services; 

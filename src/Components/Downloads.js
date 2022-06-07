@@ -1,15 +1,14 @@
-import "../Styles/downloads.css";
+import StyledDownloads from "../Styles/Downloads.styled";
 import downloadImg from "../Assets/downloadimg.png"
 
 
 const Downloads = () => {
     return (
         <>
-        <div className="download-container">
+        <StyledDownloads>
             <img src={downloadImg} className="download-img" alt="Images of download options"></img>
-        </div>
-        </>
-    )
+        </StyledDownloads>        </>
+    ) 
 }
 
 export default Downloads;

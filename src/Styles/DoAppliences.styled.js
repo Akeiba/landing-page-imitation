@@ -1,27 +1,33 @@
-.controlAppliences-container {
+import styled from 'styled-components'
+
+const StyledDoAppliences = styled.div`
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     z-index: -10;
-}
+
 .phone-image {
     height: 90vh;
     width: auto;
-    z-index: 2;
-    /* padding-right: 3.2vw; */
+    z-index: 2; 
+    margin: 0;
+    padding: 0;
+    margin-left: 6em;
+
 }
 
-.controlAppliences-phone-container {
+.doAppliences-phone-container { 
     width: 50vw;
-    padding: 0;
+    padding-right: 4em;
     margin: 0 8em 0 0;
-    text-align:right;
+    text-align: right;
     position: relative;
     z-index: 2;
 }
 
-.contorlAppliences-phone-container::after {
+.doAppliences-phone-container::after {
     content: " ";
     background-color: rgb(30,90,249);
     z-index: -1;
@@ -33,26 +39,27 @@
     border-radius: 10px;
 }
 
-.controlAppliences-text-container {
+.doAppliences-text-container {
     width: 50vw;
     padding: 0;
-    margin: 0 0 0 1em;
+    margin: 0 1em 0 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: left;
     color: #000F38;
 }
 
-.controlAppliences-title {
+.doAppliences-title {
     font-weight: bolder;
     font-size: 2.4em;
-    width: 80%;
+    text-align: left;
+    width: 65%;
     padding: 0;
     margin-bottom: 0.5em;
 }
 
-.controlAppliences-text-container p {
+.doAppliences-text-container p {
     width: 65%;
     font-size: 1em;
     margin: 0;
@@ -60,15 +67,21 @@
     text-align: left;
 }
 
-.controlAppliences-learn-btn {
+.doAppliences-learn-btn {
     background-color: #fff;
     color: #2A3757;
     font-weight: bold;
     border-color: #2A3757;
     border-radius: 8px;
     margin-top: 2em;
+    left: 0;
     padding: 1em;
     width: 12vw;
+    align-self: center;
     background-clip: border-box;
     cursor: pointer;
+    /* border: none; */
 }
+`;
+
+export default StyledDoAppliences;

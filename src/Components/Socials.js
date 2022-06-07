@@ -1,17 +1,15 @@
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare, FaLinkedin } from 'react-icons/fa';
-import "../Styles/contactSection.css";
-import "../Styles/socials.css";
+import StyledSocials from '../Styles/Socials.styled';
 
 
 const Socials = () => {
     return (
-        <div className="socials-container">
-        <FaFacebookSquare className="icon" />
-        <FaInstagramSquare className="icon" />
-        <FaTwitterSquare className="icon" />
-        <FaLinkedin className="icon" />
-        </div>
-    )
+        <StyledSocials>
+            <FaFacebookSquare className="icon" />
+            <FaInstagramSquare className="icon" />
+            <FaTwitterSquare className="icon" />
+            <FaLinkedin className="icon" />
+        </StyledSocials>    )
 }
 
 export default Socials;

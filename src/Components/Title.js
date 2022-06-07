@@ -1,9 +1,12 @@
-import "../Styles/title.css"
+// import "../Styles/title.css"
+import StyledTitle from "../Styles/Title.styled.js"
 
 const Title = () => {
     return (
-        <h1>Smart Home <br></br> Application</h1>
+        <StyledTitle> 
+        Smart Home <br></br> Application
+        </StyledTitle>
     )
 }
 
-export default Title;
+export default Title; 

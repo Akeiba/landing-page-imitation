@@ -8,8 +8,7 @@ import About from "./Components/About";
 import Services from "./Components/Services";
 import DoAppliences from "./Components/DoAppliences";
 import ControlAppliences from "./Components/ControlAppliences";
-
-
+import OurClients from "./Components/OurClients";
 
 function App() {
   return (
@@ -23,6 +22,7 @@ function App() {
         <Services />
         <DoAppliences />
         <ControlAppliences />
+        <OurClients />
     </div>
   );
 }

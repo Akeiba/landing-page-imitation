@@ -1,18 +1,20 @@
-.doAppliences-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: -10;
-}
-.phone-image {
-    height: 90vh;
-    width: auto;
-    z-index: 2;
-    /* margin-right: 3.2vw; */
+import styled from 'styled-components'
+
+const StyledControlAppliences = styled.div`
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+z-index: -10;
+padding-top: 1em;
+
+
+.controlAppliences-phone-image {
+    z-index: 2; 
+    padding-right: 4vw;
 }
 
-.doAppliences-phone-container {
+.controlAppliences-phone-container {
     width: 50vw;
     padding: 0;
     margin: 0 8em 0 0;
@@ -21,7 +23,7 @@
     z-index: 2;
 }
 
-.doAppliences-phone-container::after {
+.controlAppliences-phone-container::after {
     content: " ";
     background-color: rgb(30,90,249);
     z-index: -1;
@@ -33,27 +35,26 @@
     border-radius: 10px;
 }
 
-.doAppliences-text-container {
+.controlAppliences-text-container {
     width: 50vw;
     padding: 0;
-    margin: 0 1em 0 0;
+    margin: 0 0 0 1em;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     color: #000F38;
 }
 
-.doAppliences-title {
+.controlAppliences-title {
     font-weight: bolder;
     font-size: 2.4em;
-    text-align: left;
-    width: 65%;
+    width: 80%;
     padding: 0;
     margin-bottom: 0.5em;
 }
 
-.doAppliences-text-container p {
+.controlAppliences-text-container p {
     width: 65%;
     font-size: 1em;
     margin: 0;
@@ -61,7 +62,7 @@
     text-align: left;
 }
 
-.doAppliences-learn-btn {
+.controlAppliences-learn-btn {
     background-color: #fff;
     color: #2A3757;
     font-weight: bold;
@@ -70,9 +71,10 @@
     margin-top: 2em;
     padding: 1em;
     width: 12vw;
-    align-self: center;
+    align-self: left;
     background-clip: border-box;
     cursor: pointer;
-    /* border: none; */
 }
+`;
 
+export default StyledControlAppliences;
